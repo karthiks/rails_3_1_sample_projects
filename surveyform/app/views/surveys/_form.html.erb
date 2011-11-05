@@ -15,6 +15,14 @@
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </div>
+
+  <%= f.fields_for :questions do |builder| %>
+    <p>
+    <%= builder.label :content, "Question" %> <br/>
+    <%= builder.text_area :content, :rows => 3 %>
+    </p>
+  <% end %>
+
   <div class="actions">
     <%= f.submit %>
   </div>
