@@ -20,10 +20,12 @@
     <p>
     <%= builder.label :content, "Question" %> <br/>
     <%= builder.text_area :content, :rows => 3 %>
+    <%= builder.check_box :_destroy -%>
+    <%= builder.label :_destroy, "Remove Question"-%>
     </p>
   <% end %>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Submit" %>
   </div>
 <% end %>
