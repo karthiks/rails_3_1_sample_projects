@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Picturesque::Application.config.secret_token = '8e9475cab17054a1522cf11628820766e09aa6b4b9cee6f1738bfada8f1cd34ed246eb4a4c152f024b7d2532a01052e3df9e7aeea1359d7465b30fa35e962627'
+Picturesque::Application.config.secret_token = 'c520158abe2e6b4b0e2632098bb522dcf492c3b1facd48e499475541424269c1327d56b8a16d1755fd8dadbf6983f6e9b46b6f69cc692d92d021aa64b0fb376d'
