@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddUserPicToUser	db/migrate/20111112031612_add_user_pic_to_user.rb	/^class AddUserPicToUser < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:JobBank
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateJobs	db/migrate/20111111174554_create_jobs.rb	/^class CreateJobs < ActiveRecord::Migration$/;"	c
+CreateUsers	db/migrate/20111111174652_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Job	app/models/job.rb	/^class Job < ActiveRecord::Base$/;"	c
+JobBank	config/application.rb	/^module JobBank$/;"	m
+JobsController	app/controllers/jobs_controller.rb	/^class JobsController < ApplicationController$/;"	c
+JobsHelper	app/helpers/jobs_helper.rb	/^module JobsHelper$/;"	m
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserPicUploader	app/uploaders/user_pic_uploader.rb	/^class UserPicUploader < CarrierWave::Uploader::Base$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+about	public/index.html	/^      function about() {$/;"	f
+change	db/migrate/20111111174554_create_jobs.rb	/^  def change$/;"	f	class:CreateJobs
+change	db/migrate/20111111174652_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20111112031612_add_user_pic_to_user.rb	/^  def change$/;"	f	class:AddUserPicToUser
+create	app/controllers/jobs_controller.rb	/^  def create$/;"	f	class:JobsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+destroy	app/controllers/jobs_controller.rb	/^  def destroy$/;"	f	class:JobsController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+edit	app/controllers/jobs_controller.rb	/^  def edit$/;"	f	class:JobsController
+edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+index	app/controllers/jobs_controller.rb	/^  def index$/;"	f	class:JobsController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+new	app/controllers/jobs_controller.rb	/^  def new$/;"	f	class:JobsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+show	app/controllers/jobs_controller.rb	/^  def show$/;"	f	class:JobsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+store_dir	app/uploaders/user_pic_uploader.rb	/^  def store_dir$/;"	f	class:UserPicUploader
+update	app/controllers/jobs_controller.rb	/^  def update$/;"	f	class:JobsController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
