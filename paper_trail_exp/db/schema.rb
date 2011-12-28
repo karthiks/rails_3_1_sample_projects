@@ -11,7 +11,29 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111228021304) do
+ActiveRecord::Schema.define(:version => 20111228052652) do
+
+  create_table "labels", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.string   "label_type"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "notifications", :force => true do |t|
+    t.text     "details"
+    t.integer  "label_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "versions", :force => true do |t|
     t.string   "item_type",  :null => false
